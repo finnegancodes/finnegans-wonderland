@@ -11,7 +11,7 @@
     </h2>
   </section>
   <section
-    class="flex flex-col md:flex-row flex-wrap items-center justify-center gap-4"
+    class="mb-32 flex flex-col md:flex-row flex-wrap items-center justify-center gap-4"
   >
     <ContactChip href="https://www.reddit.com/user/DeepPurple101" color="#ef4444">
       <i slot="icon" class="fa fa-reddit fa-lg block" aria-hidden="true" />
