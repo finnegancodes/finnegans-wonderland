@@ -1,6 +1,6 @@
 # Finnegan's Wonderland
 
-You are looking at the source code for [finnswonderland.eu](https://finnswonderland.eu)
+You are looking at the source code of [finnswonderland.eu](https://finnswonderland.eu)
 
 If you – for whatever reason – are looking to build the site yourself, follow these instructions:
 
