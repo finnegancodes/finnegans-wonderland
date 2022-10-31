@@ -3,7 +3,7 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     fontFamily: {
-      sans: ["Roboto Slab", "sans-serif"],
+      sans: ["Roboto Slab", "serif"],
     },
     extend: {},
   },
