@@ -1,9 +1,10 @@
 <script>
+  import { fade } from "svelte/transition";
   import Banner from "../components/Banner.svelte";
   import ContactChip from "../components/ContactChip.svelte";
 </script>
 
-<main class="p-4 max-w-2xl mx-auto flex flex-col justify-center">
+<main in:fade={{duration: 200}} class="p-4 max-w-2xl mx-auto flex flex-col justify-center">
   <Banner>"I don't recognize you. You are new."</Banner>
   <section class="flex flex-col mb-8">
     <h2 class="text-lg text-center">

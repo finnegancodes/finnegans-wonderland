@@ -1,9 +1,10 @@
 <script>
+  import { fade } from "svelte/transition";
   import Banner from "../components/Banner.svelte";
   import Caption from "../components/Caption.svelte";
 </script>
 
-<main class="p-4 max-w-2xl mx-auto flex flex-col justify-center">
+<main in:fade={{duration: 200}} class="p-4 max-w-2xl mx-auto flex flex-col justify-center">
   <Banner>"Where fantasy and fun comes to life."*</Banner>
   <section class="flex flex-col gap-4">
     <h2 class="text-xl text-center">Hello? Hello, hello!</h2>

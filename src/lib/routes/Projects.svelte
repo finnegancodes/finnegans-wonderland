@@ -1,11 +1,12 @@
 <script>
+  import { fade } from "svelte/transition";
   import Banner from "../components/Banner.svelte";
   import Caption from "../components/Caption.svelte";
   import Card from "../components/Card.svelte";
 
 </script>
 
-<main class="p-4 max-w-2xl mx-auto flex flex-col justify-center">
+<main in:fade={{duration: 200}} class="p-4 max-w-2xl mx-auto flex flex-col justify-center">
   <Banner>"These are clearly state-of-the-art."*</Banner>
   <section class="flex flex-col gap-4 mb-8">
     <h2 class="text-xl text-center">Here are some of my creations.</h2>
